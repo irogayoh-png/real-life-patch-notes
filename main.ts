@@ -34,6 +34,9 @@ function validate(text: string): void {
   if (!VERSION_PATTERN.test(text)) {
     throw new Error("entry must open with a version number like v2.6.2: ");
   }
+  if (text !== text.trim() || text.includes("  ")) {
+    throw new Error("entry must not have leading/trailing space or double spaces");
+  }
   const n = charCount(text);
   if (n < 1 || n > MAX_CHARS) {
     throw new Error(`entry is ${n} characters, must be 1 to ${MAX_CHARS}`);
