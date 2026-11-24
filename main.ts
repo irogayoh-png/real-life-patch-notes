@@ -21,12 +21,17 @@ function charCount(text: string): number {
   return [...text].length;
 }
 
+const VERSION_PATTERN = /^v\d+\.\d+\.\d+: /;
+
 function validate(text: string): void {
   if (text.trim().length === 0) {
     throw new Error("entry is empty or only whitespace");
   }
   if (text.includes("\n") || text.includes("\r")) {
     throw new Error("entry must be a single line");
+  }
+  if (!VERSION_PATTERN.test(text)) {
+    throw new Error("entry must open with a version number like v2.6.2: ");
   }
   const n = charCount(text);
   if (n < 1 || n > MAX_CHARS) {
