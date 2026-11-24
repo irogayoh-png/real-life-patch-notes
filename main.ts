@@ -3,16 +3,17 @@
 // real life / human biology, written in the terse register of a real
 // release note. Deterministic, stdlib only, no network, no randomness.
 //
-// The entry: the foot goes "offline" after sitting cross-legged.
-// Pins and needles read as static on a dead connection, which is exactly
-// how the body reports it: the limb stops answering, then comes back
-// buzzing. A version number, a shipped fix, one specific recognisable bug.
+// The entry: the arm waves back at a stranger who was waving at
+// someone behind you. A whole social disaster in one line: the wave is
+// already out, the stranger's face changes, and there is no undo. The
+// fix is stated as if it shipped, the bug is one everyone has shipped
+// themselves at least once, and the punchline lands on the last words.
 
 import { mkdirSync, writeFileSync, readFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const LINE =
-  "v2.6.2: fixed a bug where standing up after sitting cross-legged took the foot offline and filled it with static.";
+  "v3.0.1: fixed a bug where the arm waved back at a stranger who was waving at someone behind you.";
 
 const MAX_CHARS = 160;
 const OUTPUT_PATH = process.argv[2] ?? "/output/entry.txt";

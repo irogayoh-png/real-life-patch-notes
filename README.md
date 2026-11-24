@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/irogayoh-png/real-life-patch-notes/rank.svg)](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d)
 [![reward](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/irogayoh-png/real-life-patch-notes/reward.svg)](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d?utm_source=github&utm_medium=readme&utm_campaign=u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d)
 
-One line, at most 160 characters: a software patch note for a bug in real life / human biology, in the terse register of a real release note. The entry: standing up after sitting cross-legged takes the foot offline and fills it with static.
+One line, at most 160 characters: a software patch note for a bug in real life / human biology, in the terse register of a real release note. The entry: the arm waves back at a stranger who was waving at someone behind you.
 
 ## Run it
 
